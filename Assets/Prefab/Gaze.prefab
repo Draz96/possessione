@@ -2001,14 +2001,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.AudioPlay
+        - HutongGames.PlayMaker.Actions.PlaySound
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000002000000
-        actionHashCodes: 5ac852041b142f01
+        actionHashCodes: 5ac852049cdc3905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -2140,7 +2140,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: 
+            enumName: HutongGames.PlayMaker.None
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -2149,7 +2149,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: 
+            objectTypeName: UnityEngine.Object
             floatValues: []
             intValues: 
             boolValues: 
@@ -2180,25 +2180,30 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
-        fsmVector3Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
+        stringParams: []
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000140000000f0000001800000017000000
+        paramDataType: 2400000001000000140000001c000000180000000f000000
         paramName:
         - targetProperty
         - everyFrame
         - gameObject
+        - position
+        - clip
         - volume
-        - oneShotClip
-        - finishedEvent
         paramDataPos: 000000000000000000000000000000000000000000000000
         paramByteDataSize: 000000000100000000000000000000000000000000000000
     - name: Diventa Rosso
@@ -2225,14 +2230,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetTag
-        - HutongGames.PlayMaker.Actions.AudioPlay
+        - HutongGames.PlayMaker.Actions.PlaySound
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000002000000
-        actionHashCodes: 9bd6f8011b142f01
+        actionHashCodes: 9bd6f8019cdc3905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -2286,25 +2291,30 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
-        fsmVector3Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
+        stringParams: []
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000140000000f0000001800000017000000
+        paramDataType: 1400000012000000140000001c000000180000000f000000
         paramName:
         - gameObject
         - tag
         - gameObject
+        - position
+        - clip
         - volume
-        - oneShotClip
-        - finishedEvent
         paramDataPos: 000000000000000001000000000000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000
     - name: Diventa Blu
