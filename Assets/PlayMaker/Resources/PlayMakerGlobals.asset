@@ -28,6 +28,12 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
+      name: SecondCheck
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: oggettoPreso
       tooltip: 
       showInInspector: 0
@@ -52,6 +58,12 @@ MonoBehaviour:
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
+    - useVariable: 1
+      name: Giocatore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     - useVariable: 1
       name: grabbedObj
       tooltip: 
@@ -89,7 +101,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - click
   - move
