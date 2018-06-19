@@ -1343,7 +1343,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+  - {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1411,7 +1411,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+  - {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5077,7 +5077,7 @@ MonoBehaviour:
       localPivot: {x: -2.5, y: 8}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -5106,7 +5106,7 @@ MonoBehaviour:
       localPivot: {x: -0.5, y: 8}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -5135,7 +5135,7 @@ MonoBehaviour:
       localPivot: {x: 2.5, y: 8}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -5164,7 +5164,7 @@ MonoBehaviour:
       localPivot: {x: 0.5, y: 8}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -5193,7 +5193,7 @@ MonoBehaviour:
       localPivot: {x: 2.5, y: -0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -5222,7 +5222,7 @@ MonoBehaviour:
       localPivot: {x: -2.5, y: -0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 34407306bcebc498d8fe5f7d6292924e, type: 2}
+    _mat: {fileID: 2100000, guid: 2b86280e52b624ff4ae513ff4f57b83d, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
