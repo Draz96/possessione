@@ -328,7 +328,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900235031413282, guid: 24b44fee9627f1b4e8a1b6e38b5f0c77, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1074819810121764, guid: 24b44fee9627f1b4e8a1b6e38b5f0c77, type: 2}
       propertyPath: m_Name
@@ -952,7 +952,7 @@ Transform:
   - {fileID: 1088594936}
   - {fileID: 803080522}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &270311737
 Prefab:
@@ -963,11 +963,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 553.1109
+      value: 552.17
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 124.11566
+      value: 124.72
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.z
@@ -996,6 +996,11 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FragBozzi
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Quando un atto \xE8 compiuto, non cambia pi\xF9\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -1167,7 +1172,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4125574049639322, guid: 6465501f1fac84a688952d358cf4b5de, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 33635964233438352, guid: 6465501f1fac84a688952d358cf4b5de,
         type: 2}
@@ -1216,7 +1221,7 @@ Transform:
   - {fileID: 609276501}
   - {fileID: 1620790927}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &363720895
 GameObject:
@@ -1276,12 +1281,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 363720895}
-  m_LocalRotation: {x: -0.45958567, y: 0.08635367, z: 0.044957016, w: 0.8827813}
-  m_LocalPosition: {x: 314.6631, y: -116.93541, z: 87.97003}
+  m_LocalRotation: {x: -0.14155564, y: 0.8518525, z: 0.29464003, w: 0.40926364}
+  m_LocalPosition: {x: 377.93408, y: -108.97392, z: 431.50714}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &372495633
 GameObject:
@@ -1974,6 +1979,11 @@ Prefab:
       propertyPath: m_Name
       value: FramRocce
       objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: Se ti sposti di un punto, non ti pare di aver sbagliato?
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
   m_IsPrefabParent: 0
@@ -1986,11 +1996,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 501.82672
+      value: 500.4
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 124.962296
+      value: 127.3
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2019,6 +2029,11 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FragNicchia
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Ci\xF2 che hai fatto resta: \xE8 la tua prigione\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -2068,7 +2083,7 @@ Prefab:
     - target: {fileID: 224541344710898478, guid: cfbab50d94937614bb7a1d09700f12b6,
         type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 224541344710898478, guid: cfbab50d94937614bb7a1d09700f12b6,
         type: 2}
@@ -2120,6 +2135,21 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114322463612045980, guid: cfbab50d94937614bb7a1d09700f12b6,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 114322463612045980, guid: cfbab50d94937614bb7a1d09700f12b6,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224561669434603504, guid: cfbab50d94937614bb7a1d09700f12b6,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfbab50d94937614bb7a1d09700f12b6, type: 2}
   m_IsPrefabParent: 0
@@ -2160,7 +2190,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4881164103409964, guid: 4e99e372c88f02640bd9a6a2d888752b, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1627678641685144, guid: 4e99e372c88f02640bd9a6a2d888752b, type: 2}
       propertyPath: m_Name
@@ -2418,7 +2448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &547308608
 Prefab:
@@ -2457,7 +2487,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4149783400302028, guid: 261bbc855f0ca8545bc33d6eb25d5fc9, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4149783400302028, guid: 261bbc855f0ca8545bc33d6eb25d5fc9, type: 2}
       propertyPath: m_LocalScale.x
@@ -2466,6 +2496,10 @@ Prefab:
     - target: {fileID: 4149783400302028, guid: 261bbc855f0ca8545bc33d6eb25d5fc9, type: 2}
       propertyPath: m_LocalScale.z
       value: 13.979859
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604329985072490, guid: 261bbc855f0ca8545bc33d6eb25d5fc9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 261bbc855f0ca8545bc33d6eb25d5fc9, type: 2}
@@ -2712,6 +2746,52 @@ Transform:
   m_Father: {fileID: 694838075}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &630086508
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 532.6999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 123.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 598
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.22119728
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97522914
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -25.559002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &630805925
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,6 +3154,28 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: 'Tu non sei nessuno
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.handleTriggerEnter
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.handleCollisionEnter
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -3494,6 +3596,11 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FramStella
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Un uomo invece pu\xF2 anche non essere nessuno"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -4365,7 +4472,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 76ed5ba0ad0e64ffd84282bb317fe002, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2300010, guid: 76ed5ba0ad0e64ffd84282bb317fe002, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4468,7 +4575,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 125.45911
+      value: 126.21
       objectReference: {fileID: 0}
     - target: {fileID: 4442071909763666, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4497,6 +4604,12 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FragSentiero
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: Sento spazi che si aprono in me, come un palazzo le cui sale sono ancora
+        da scoprire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -7258,12 +7371,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1164892951}
-  m_LocalRotation: {x: -0.45958567, y: 0.08635367, z: 0.044957016, w: 0.8827813}
-  m_LocalPosition: {x: 314.6631, y: -116.935394, z: 87.97003}
+  m_LocalRotation: {x: -0.14155564, y: 0.8518525, z: 0.29464003, w: 0.40926364}
+  m_LocalPosition: {x: 382.05978, y: -251.30428, z: 533.21814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1213018850
 Mesh:
@@ -7452,7 +7565,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1824
+  m_Name: pb_Mesh32386
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -7765,12 +7878,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1296151587}
-  m_LocalRotation: {x: -0.45958567, y: 0.08635367, z: 0.044957016, w: 0.8827813}
-  m_LocalPosition: {x: 314.6631, y: -116.935394, z: 87.97003}
+  m_LocalRotation: {x: -0.14155564, y: 0.8518525, z: 0.29464003, w: 0.40926364}
+  m_LocalPosition: {x: -96.94891, y: -201.1619, z: 657.1881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1372574827
 Mesh:
@@ -8075,6 +8188,11 @@ Prefab:
       propertyPath: m_Name
       value: FramLaghetto
       objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Ciascuno ha dentro di s\xE8 un mondo di cose ma sono solo sue\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
   m_IsPrefabParent: 0
@@ -8104,7 +8222,7 @@ Transform:
   m_LocalScale: {x: 1111.2513, y: 13.588188, z: 1122.1477}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1460013242 stripped
 Transform:
@@ -8196,6 +8314,11 @@ Prefab:
       propertyPath: m_Name
       value: FramPozzanghra
       objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Un personaggio \xE8 qualcuno la sua storia, le sue azioni sono definite"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
   m_IsPrefabParent: 0
@@ -8275,7 +8398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697099846
 GameObject:
@@ -8335,12 +8458,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697099846}
-  m_LocalRotation: {x: -0.45958567, y: 0.08635367, z: 0.044957016, w: 0.8827813}
-  m_LocalPosition: {x: 314.6631, y: -116.935394, z: 87.97003}
+  m_LocalRotation: {x: -0.14155564, y: 0.8518525, z: 0.29464003, w: 0.40926364}
+  m_LocalPosition: {x: -96.94891, y: -201.1619, z: 657.1881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1711669449
 GameObject:
@@ -9221,7 +9344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900235031413282, guid: 24b44fee9627f1b4e8a1b6e38b5f0c77, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1074819810121764, guid: 24b44fee9627f1b4e8a1b6e38b5f0c77, type: 2}
       propertyPath: m_Name
@@ -9415,6 +9538,12 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FramDiscesaFangosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: "Tutto pu\xF2 apparire sbagliato, o tutto vero, da soli non si pu\xF2
+        averne la certezza"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
@@ -9628,7 +9757,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4440051341365370, guid: fe70462884a03414286a8457483a9df5, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 64885618225866844, guid: fe70462884a03414286a8457483a9df5,
         type: 2}
@@ -9684,7 +9813,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4895176890172926, guid: 959d45129592545b5a85fcccd8c803ca, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 33500217143320938, guid: 959d45129592545b5a85fcccd8c803ca,
         type: 2}
@@ -9884,7 +10013,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4188842327535044, guid: 03e55bcd724b42f4ab4fc036a597c228, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 33962525931752208, guid: 03e55bcd724b42f4ab4fc036a597c228,
         type: 2}
@@ -10091,6 +10220,11 @@ Prefab:
     - target: {fileID: 1258687100311348, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
       propertyPath: m_Name
       value: FragPonte
+      objectReference: {fileID: 0}
+    - target: {fileID: 114858769321934810, guid: b8fb7b38eb107954eabdf592471aa119,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.fsmStringParams.Array.data[0].value
+      value: Non senti quella voce che ti guida?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8fb7b38eb107954eabdf592471aa119, type: 2}
