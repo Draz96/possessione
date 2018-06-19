@@ -736,9 +736,9 @@ namespace Unity.InteractiveTutorials
                 Debug.LogError("Defaults cannot be written during play mode");
                 return;
             }
-
-            ResetTutorial();
-            m_CurrentTutorial.WriteAssetsToTutorialDefaultsFolder();
+//
+  //          ResetTutorial();
+    //        m_CurrentTutorial.WriteAssetsToTutorialDefaultsFolder();
         }
 
         static public void LoadWindowLayoutAndSetUpTutorial(string layoutPath, Tutorial tutorial)

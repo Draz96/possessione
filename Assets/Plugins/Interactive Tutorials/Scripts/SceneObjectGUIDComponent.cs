@@ -1,4 +1,3 @@
-using System;
 using UnityEditor;
 using UnityEngine;
 using System.Linq;
@@ -9,7 +8,7 @@ using System.Linq;
 public class SceneObjectGUIDComponent : MonoBehaviour
 {
     [SerializeField] private string m_Id;
-    [NonSerialized] private bool m_Registered;
+     private bool m_Registered;
 
     public string id
     {
