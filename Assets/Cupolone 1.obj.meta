@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 640fc134c833e44dea578c9c752cda2c
+timeCreated: 1529508536
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basamento
+    100002: Chiave_1
+    100004: Chiave_2
+    100006: Chiave_3
+    100008: Chiave_4
+    100010: Cubo_centrale
+    100012: //RootNode
+    100014: Pareti_corridoi
+    100016: Ponte__Arco
+    100018: Ponte__Ponte_vero_e_proprio
+    100020: Ponte__Travi_verticali
+    100022: Portone
+    100024: Trave_perpendicolare
+    100026: Travi_1
+    100028: Travi_2
+    100030: Travi_3
+    100032: Vetro
+    400000: Basamento
+    400002: Chiave_1
+    400004: Chiave_2
+    400006: Chiave_3
+    400008: Chiave_4
+    400010: Cubo_centrale
+    400012: //RootNode
+    400014: Pareti_corridoi
+    400016: Ponte__Arco
+    400018: Ponte__Ponte_vero_e_proprio
+    400020: Ponte__Travi_verticali
+    400022: Portone
+    400024: Trave_perpendicolare
+    400026: Travi_1
+    400028: Travi_2
+    400030: Travi_3
+    400032: Vetro
+    2100000: BasamentoMat
+    2100002: Chiave_1Mat
+    2100004: Chiave_2Mat
+    2100006: Chiave_3Mat
+    2100008: Chiave_4Mat
+    2100010: Cubo_centraleMat
+    2100012: Pareti_corridoiMat
+    2100014: Ponte__ArcoMat
+    2100016: Ponte__Ponte_vero_e_proprioMat
+    2100018: Ponte__Travi_verticaliMat
+    2100020: PortoneMat
+    2100022: Trave_perpendicolareMat
+    2100024: Travi_1Mat
+    2100026: Travi_2Mat
+    2100028: Travi_3Mat
+    2100030: VetroMat
+    2300000: Basamento
+    2300002: Chiave_1
+    2300004: Chiave_2
+    2300006: Chiave_3
+    2300008: Chiave_4
+    2300010: Cubo_centrale
+    2300012: Pareti_corridoi
+    2300014: Ponte__Arco
+    2300016: Ponte__Ponte_vero_e_proprio
+    2300018: Ponte__Travi_verticali
+    2300020: Portone
+    2300022: Trave_perpendicolare
+    2300024: Travi_1
+    2300026: Travi_2
+    2300028: Travi_3
+    2300030: Vetro
+    3300000: Basamento
+    3300002: Chiave_1
+    3300004: Chiave_2
+    3300006: Chiave_3
+    3300008: Chiave_4
+    3300010: Cubo_centrale
+    3300012: Pareti_corridoi
+    3300014: Ponte__Arco
+    3300016: Ponte__Ponte_vero_e_proprio
+    3300018: Ponte__Travi_verticali
+    3300020: Portone
+    3300022: Trave_perpendicolare
+    3300024: Travi_1
+    3300026: Travi_2
+    3300028: Travi_3
+    3300030: Vetro
+    4300000: Basamento
+    4300002: Chiave_1
+    4300004: Chiave_2
+    4300006: Chiave_3
+    4300008: Chiave_4
+    4300010: Cubo_centrale
+    4300012: Pareti_corridoi
+    4300014: Ponte__Arco
+    4300016: Ponte__Ponte_vero_e_proprio
+    4300018: Ponte__Travi_verticali
+    4300020: Portone
+    4300022: Trave_perpendicolare
+    4300024: Travi_1
+    4300026: Travi_2
+    4300028: Travi_3
+    4300030: Vetro
+    6400000: Basamento
+    6400002: Chiave_1
+    6400004: Chiave_2
+    6400006: Chiave_3
+    6400008: Chiave_4
+    6400010: Cubo_centrale
+    6400012: Pareti_corridoi
+    6400014: Ponte__Arco
+    6400016: Ponte__Ponte_vero_e_proprio
+    6400018: Ponte__Travi_verticali
+    6400020: Portone
+    6400022: Trave_perpendicolare
+    6400024: Travi_1
+    6400026: Travi_2
+    6400028: Travi_3
+    6400030: Vetro
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
