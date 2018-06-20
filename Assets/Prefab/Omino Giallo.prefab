@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 114411299381255364}
   m_Layer: 8
   m_Name: Omino Giallo
-  m_TagString: Player
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,8 +602,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1389221544054576}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.29, y: -7.68, z: -2.64}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 98.01, y: -2.98, z: 142.86}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4649967786077242}

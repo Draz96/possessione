@@ -34,6 +34,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: fineprigione
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: oggettoPreso
       tooltip: 
       showInInspector: 0
@@ -50,6 +56,24 @@ MonoBehaviour:
       value: {x: 0, y: 0, z: 0}
     - useVariable: 1
       name: posizionePlayer
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: spawndue
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: spawnuno
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: spwanprigione
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -107,7 +131,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - click
   - move
