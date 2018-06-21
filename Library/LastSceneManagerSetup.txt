@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/scenasofi.unity
+- path: Assets/_scenes/scenaFra.unity
   isLoaded: 1
   isActive: 1
