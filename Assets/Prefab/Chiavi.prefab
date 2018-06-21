@@ -185,8 +185,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189477553506806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.137726, y: 70.21821, z: 115.469666}
-  m_LocalScale: {x: 2.108546, y: 2.2403843, z: 3.8611429}
+  m_LocalPosition: {x: 244.9, y: 133.71, z: -126.28}
+  m_LocalScale: {x: 2.108546, y: 7.8805118, z: 3.7952147}
   m_Children:
   - {fileID: 4368150394344606}
   m_Father: {fileID: 4948421165165362}
@@ -199,8 +199,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1676183481881582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47426045, y: 0.446352, z: 0.25899068}
+  m_LocalPosition: {x: -0.00001447328, y: 0, z: 0}
+  m_LocalScale: {x: 0.47426045, y: 0.12689531, z: 0.26348972}
   m_Children: []
   m_Father: {fileID: 4266505462523144}
   m_RootOrder: 0
@@ -239,8 +239,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004641721973162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.46035975, y: 0.35380757, z: 0.76182747}
-  m_LocalScale: {x: 0.36470672, y: 0.6961849, z: 0.61451787}
+  m_LocalPosition: {x: -0.15400603, y: 0.35380757, z: -0.018612947}
+  m_LocalScale: {x: 0.3647067, y: 0.69618475, z: 0.6145178}
   m_Children: []
   m_Father: {fileID: 4783673831458200}
   m_RootOrder: 0
@@ -279,7 +279,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1455587490069904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.4, y: 73.71, z: 141.22}
+  m_LocalPosition: {x: 20.56, y: 73.71, z: 142.49}
   m_LocalScale: {x: 2.741929, y: 1.4363999, z: 1.6272918}
   m_Children:
   - {fileID: 4611445162235260}
@@ -730,7 +730,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
+        actionEnabled: 0001010100
         actionIsOpen: 0101010101
         actionStartIndex: 000000000400000006000000090000000c000000
         actionHashCodes: 09fbab049bd6f80127fbe10348c011019cdc3905
@@ -797,7 +797,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -1442,15 +1442,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 3
+    startState: State 2
     states:
     - name: mostra testo
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 576.2272
-        y: 127.098724
+        x: 697.5169
+        y: 167.73195
         width: 103
         height: 32
       isBreakpoint: 0
@@ -1479,7 +1479,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0101010101
+        actionIsOpen: 0001000001
         actionStartIndex: 000000000400000006000000090000000c000000
         actionHashCodes: 09fbab049bd6f80127fbe10348c011019cdc3905
         unityObjectParams: []
@@ -1615,8 +1615,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 732.2272
-        y: 144.10654
+        x: 853.51685
+        y: 184.73976
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1628,7 +1628,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.DestroySelf
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 62f95203
@@ -1654,7 +1654,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -1671,13 +1671,13 @@ MonoBehaviour:
         - detachChildren
         paramDataPos: 00000000
         paramByteDataSize: 00000000
-    - name: State 3
+    - name: State 2
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 374.22717
-        y: 111.09091
+        x: 495.5169
+        y: 151.72414
         width: 127
         height: 32
       isBreakpoint: 0
@@ -2227,7 +2227,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0101010101
+        actionIsOpen: 0001010101
         actionStartIndex: 000000000400000006000000090000000c000000
         actionHashCodes: 09fbab049bd6f80127fbe10348c011019cdc3905
         unityObjectParams: []
@@ -2402,7 +2402,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
