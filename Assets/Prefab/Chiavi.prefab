@@ -693,7 +693,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Non senti quella voce che ti guida?
+          value: "Ma i sogni non sono reali. Reale \xE8 ci\xF2 che \xE8 insostituibile."
         - useVariable: 0
           name: 
           tooltip: 
@@ -1025,7 +1025,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0001000101
+        actionIsOpen: 0101000101
         actionStartIndex: 000000000400000006000000090000000c000000
         actionHashCodes: 09fbab049bd6f80127fbe10348c011019cdc3905
         unityObjectParams: []
@@ -1067,7 +1067,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Non senti quella voce che ti guida?
+          value: Come posso tornare indietro quando so cosa si prova?
         - useVariable: 0
           name: 
           tooltip: 
@@ -1441,7 +1441,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Non senti quella voce che ti guida?
+          value: Poi sono venuto qui e ho avuto uno sguardo su una vita in cui non
+            devo fare finta.
         - useVariable: 0
           name: 
           tooltip: 
@@ -1465,7 +1466,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 10
         - useVariable: 0
           name: 
           tooltip: 
@@ -1815,7 +1816,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Non senti quella voce che ti guida?
+          value: Ho preteso tutta la mia vita. Preteso che mi importasse, che appartenessi
+            a qualcosa. Tutta la mia vita si basa su questo.
         - useVariable: 0
           name: 
           tooltip: 
@@ -1839,7 +1841,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 10
         - useVariable: 0
           name: 
           tooltip: 
