@@ -186,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1676183481881582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 244.89996, y: 134.9, z: -126.28}
+  m_LocalPosition: {x: 244.89996, y: 134.9, z: -126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4186967380698104}
@@ -214,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004641721973162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -95.7, y: 95.32, z: -300.5}
+  m_LocalPosition: {x: -99.02, y: 93.04, z: -302.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4882883733961956}
@@ -1174,7 +1174,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.DestroySelf
         customNames:
         - 
-        actionEnabled: 00
+        actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 62f95203
@@ -2117,7 +2117,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &135519227436650166
 SphereCollider:
