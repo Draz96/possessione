@@ -2311,7 +2311,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Hai finito ciaone
+          value: Abbiamo finito. Alla prossima seduta.
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
